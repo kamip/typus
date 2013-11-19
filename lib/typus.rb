@@ -68,6 +68,9 @@ module Typus
   mattr_accessor :subdomain
   @@subdomain = nil
 
+  mattr_accessor :dirname
+  @@dirname = "admin"
+
   # Pagination options passed to pagination helper. Note that pagination
   # options are different in Kaminari and WillPaginate.
   mattr_accessor :pagination
